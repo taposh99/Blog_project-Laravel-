@@ -23,5 +23,5 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard',[\App\Http\Controllers\AdminController:: class,'index'])->name('dashboard');
-    Route::get('/add-blog',[\App\Http\Controllers\AdminController:: class,'addBlog'])->name('add-blog');
+    Route::get('/add-blog',[\App\Http\Controllers\BlogController:: class,'addBlog'])->name('add-blog');
 });
