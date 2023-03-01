@@ -18,19 +18,11 @@
                 <li><a class="dropdown-item" href="#!">Settings</a></li>
                 <li><a class="dropdown-item" href="#!">Activity Log</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li>
-                    <a class="dropdown-item"  href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('frm-logout').submit();">
-                        <form id="frm-logout" action="{{ route('logout') }}" method="POST" style="display: none;">
-                            {{ csrf_field() }}
-                        </form>
-                        <div class="d-flex align-items-center">
-                            <div class="setting-icon"><i class="bi bi-lock-fill"></i></div>
-                            <div class="setting-text ms-3"><span>Logout</span></div>
-                        </div>
-                    </a>
+                <li><a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logout').submit()">Logout</a>
+                    <form action="{{ route('logout') }}" method="post" id="logout">
+                        @csrf
+                    </form>
                 </li>
-
-
             </ul>
         </li>
     </ul>

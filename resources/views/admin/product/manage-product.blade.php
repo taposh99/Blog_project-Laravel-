@@ -1,60 +1,50 @@
 @extends('admin.master')
-@section('tittle')
-    manage product
-@endsection
-
 @section('content')
-    <div class="container-fluid px-4">
-
-
+    <div class="container-fluid px-4 pt-5">
         <div class="card mb-4">
             <div class="card-body">
                 <table id="datatablesSimple">
                     <thead>
                     <tr>
-                        <th>Sl No</th>
-                        <th>product Name</th>
-                        <th>Cateory Name</th>
-                        <th>brand name</th>
-                        <th>price</th>
-                        <th>description</th>
-                        <th>image</th>
-                        <th>status</th>
+                        <th>sl No</th>
+                        <th>Product Name</th>
+                        <th>Category Name</th>
+                        <th>brand Name</th>
+                        <th>Price</th>
+                        <th>Image</th>
+                        <th>Description</th>
+                        <th>Status</th>
                         <th>Action</th>
                     </tr>
                     </thead>
-
                     <tbody>
-                    @php $i=1 @endphp
+                    @php $i=1; @endphp
                     @foreach($products as $product)
                     <tr>
-                        <td>{{ $i++ }}</td>
-                        <td>{{ $product->product_name }}</td>
-                        <td>{{ $product->category_name }}</td>
-                        <td>{{ $product->brand_name }}</td>
-                        <td>{{ $product->price }}</td>
-                        <td>{{ $product->description }}</td>
-                        <td>
-                            <img src="{{ asset($product->image) }}" style="height: 50px;width: 50px" alt="">
-                        </td>
+                        <td>{{$i++}}</td>
+                        <td>{{$product->product_name}}</td>
+                        <td>{{$product->category_name}}</td>
+                        <td>{{$product->brand_name}}</td>
+                        <td>{{$product->price}}</td>
+                        <td><img style="width: 50px;height: 50px" src="{{asset($product->image)}}" alt=""></td>
+                        <td>{{$product->description}}</td>
                         <td>{{ $product->status==1?'published':'unpublished' }}</td>
-
                         <td>
                             @if($product->status==1)
-                            <a href="{{route('status',['id'=>$product->id])}}" class="btn btn-warning">unpublished</a>
+                                <a href="{{ route('status',['id'=>$product->id]) }}" class="btn btn-warning">unPublished</a>
                             @else
-                                <a href="{{route('status',['id'=>$product->id])}}" class="btn btn-primary">published</a>
+                                <a href="{{ route('status',['id'=>$product->id]) }}" class="btn btn-primary">published</a>
                             @endif
+                                <a href="{{ route('edit',['id'=>$product->id]) }}" class="btn btn-primary">Edit</a>
+                                <a href="#" onclick="event.preventDefault(); document.getElementById('delete').submit()">
+                                    <form action="{{ route('delete') }}" method="post" id="delete">
+                                        @csrf
+                                        <input type="hidden" value="{{ $product->id }}" name="product_id">
+                                        <input type="submit" value="Delete" class="btn btn-danger">
+                                    </form>
+                                </a>
 
-
-                                <a href="{{route('edit',['id'=>$product->id])}}" class="btn btn-primary">Edit</a>
-                                <form action="{{route('delete')}}" method="post">
-                                    @csrf
-                                    <input type="hidden" name="product_id" value="{{$product->id}}">
-                                    <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are You Sure !!')">
-                                </form>
-                             </td>
-
+                        </td>
                     </tr>
                     @endforeach
                     </tbody>
@@ -63,4 +53,3 @@
         </div>
     </div>
 @endsection
-
