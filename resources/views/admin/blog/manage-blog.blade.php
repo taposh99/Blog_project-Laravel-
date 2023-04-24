@@ -10,7 +10,7 @@
                         <th>category_id</th>
                         <th>author_id</th>
                         <th>title</th>
-                        <th>pic</th>
+                        <th>image</th>
                         <th>Description</th>
                         <th>Status</th>
                         <th>Action</th>
