@@ -26,7 +26,7 @@
                                     <div class="form-floating mb-3 mb-md-0">
 
                                         <select class="form-control" name="author_id"  id="">
-                                            <option value="">Select A Author</option>
+                                            <option value="">Select a Author</option>
                                             @foreach($authors as $author)
                                                 <option value="{{$author->id}}">{{$author->author_name}}</option>
                                             @endforeach
@@ -36,7 +36,7 @@
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="text" name="title" placeholder="Title" />
-                                <label for="inputEmail">Title</label>
+                                <label for="inputEmail">Title list</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="text" name="slug" placeholder="slug" />
