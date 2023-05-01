@@ -48,7 +48,7 @@
                 <div class="card mb-4">
                     <div class="card-header">
                         <i class="fas fa-chart-area me-1"></i>
-                        Area Chart Example
+                        bar Chart Example
                     </div>
                     <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="card mb-4">
                     <div class="card-header">
                         <i class="fas fa-chart-bar me-1"></i>
-                        Bar Chart Example
+                        Bar  Example
                     </div>
                     <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
                 </div>
@@ -92,10 +92,10 @@
                     </tfoot>
                     <tbody>
                     <tr>
-                        <td>Tiger Nixon</td>
+                        <td>sani Nixon</td>
                         <td>System Architect</td>
                         <td>Edinburgh</td>
-                        <td>61</td>
+                        <td>51</td>
                         <td>2011/04/25</td>
                         <td>$320,800</td>
                     </tr>
