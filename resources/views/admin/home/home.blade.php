@@ -48,7 +48,7 @@
                 <div class="card mb-4">
                     <div class="card-header">
                         <i class="fas fa-chart-area me-1"></i>
-                        bar Chart Example
+                        pai Chart Example
                     </div>
                     <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="card mb-4">
                     <div class="card-header">
                         <i class="fas fa-chart-bar me-1"></i>
-                        Bar  Example
+                        Bar chart Example
                     </div>
                     <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
                 </div>
@@ -172,7 +172,7 @@
                         <td>$103,600</td>
                     </tr>
                     <tr>
-                        <td>Jena Gaines</td>
+                        <td>sani Gaines</td>
                         <td>Office Manager</td>
                         <td>London</td>
                         <td>30</td>
@@ -180,7 +180,7 @@
                         <td>$90,560</td>
                     </tr>
                     <tr>
-                        <td>Quinn Flynn</td>
+                        <td>rafin Flynn</td>
                         <td>Support Lead</td>
                         <td>Edinburgh</td>
                         <td>22</td>
@@ -188,7 +188,7 @@
                         <td>$342,000</td>
                     </tr>
                     <tr>
-                        <td>Charde Marshall</td>
+                        <td>chal dal Marshall</td>
                         <td>Regional Director</td>
                         <td>San Francisco</td>
                         <td>36</td>
@@ -263,7 +263,7 @@
                         <td>Yuri Berry</td>
                         <td>Chief Marketing Officer (CMO)</td>
                         <td>New York</td>
-                        <td>40</td>
+                        <td>40654</td>
                         <td>2009/06/25</td>
                         <td>$675,000</td>
                     </tr>
@@ -271,18 +271,11 @@
                         <td>Caesar Vance</td>
                         <td>Pre-Sales Support</td>
                         <td>New York</td>
-                        <td>21</td>
+                        <td>214</td>
                         <td>2011/12/12</td>
                         <td>$106,450</td>
                     </tr>
-                    <tr>
-                        <td>Doris Wilder</td>
-                        <td>Sales Assistant</td>
-                        <td>Sidney</td>
-                        <td>23</td>
-                        <td>2010/09/20</td>
-                        <td>$85,600</td>
-                    </tr>
+                  
                     <tr>
                         <td>Angelica Ramos</td>
                         <td>Chief Executive Officer (CEO)</td>

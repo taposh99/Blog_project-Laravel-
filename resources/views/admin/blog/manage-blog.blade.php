@@ -7,11 +7,11 @@
                     <thead>
                     <tr>
                         <th>sl</th>
-                        <th>category_id</th>
-                        <th>author_id</th>
+                        <th>category id</th>
+                        <th>author id</th>
                         <th>title</th>
                         <th>image</th>
-                        <th>Description</th>
+                        <th>Description list</th>
                         <th>Status</th>
                         <th>Action</th>
                     </tr>
