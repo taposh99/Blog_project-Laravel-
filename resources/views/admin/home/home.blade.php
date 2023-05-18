@@ -268,16 +268,16 @@
                         <td>$675,000</td>
                     </tr>
                     <tr>
-                        <td>Caesar Vance</td>
+                        <td>rafiq Vance</td>
                         <td>Pre-Sales Support</td>
                         <td>New York</td>
                         <td>214</td>
-                        <td>2011/12/12</td>
+                        <td>2011/12/654</td>
                         <td>$106,450</td>
                     </tr>
                   
                     <tr>
-                        <td>Angelica Ramos</td>
+                        <td>dani</td>
                         <td>Chief Executive Officer (CEO)</td>
                         <td>London</td>
                         <td>47</td>
@@ -524,22 +524,8 @@
                         <td>2008/11/13</td>
                         <td>$183,000</td>
                     </tr>
-                    <tr>
-                        <td>Michael Bruce</td>
-                        <td>Javascript Developer</td>
-                        <td>Singapore</td>
-                        <td>29</td>
-                        <td>2011/06/27</td>
-                        <td>$183,000</td>
-                    </tr>
-                    <tr>
-                        <td>Donna Snider</td>
-                        <td>Customer Support</td>
-                        <td>New York</td>
-                        <td>27</td>
-                        <td>2011/01/25</td>
-                        <td>$112,000</td>
-                    </tr>
+                 
+                  
                     </tbody>
                 </table>
             </div>

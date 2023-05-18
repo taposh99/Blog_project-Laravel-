@@ -4,7 +4,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                    <div class="card-header"><h3 class="text-center font-weight-light my-4">create Blog</h3></div>
+                    <div class="card-header"><h3 class="text-center font-weight-light my-4">create New Blog</h3></div>
                     <div class="card-body">
                         <form action="{{ route('new-blog') }}" method="post" enctype="multipart/form-data">
                             @csrf
@@ -36,14 +36,14 @@
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="text" name="title" placeholder="Title" />
-                                <label for="inputEmail">Blogs Title</label>
+                                <label for="inputEmail">Blog Title</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="text" name="slug" placeholder="slug" />
-                                <label for="inputEmail">Slug list</label>
+                                <label for="inputEmail">Slugs list</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" name="description" id="editor1" cols="50" rows="50"></textarea>
+                                <textarea class="form-control" name="description" id="editor1" cols="49" rows="49"></textarea>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="date" name="date"/>
