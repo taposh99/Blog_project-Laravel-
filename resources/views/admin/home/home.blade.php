@@ -277,7 +277,7 @@
                     </tr>
                   
                     <tr>
-                        <td>dani</td>
+                        <td>sani vai</td>
                         <td>Chief Executive Officer (CEO)</td>
                         <td>London</td>
                         <td>47</td>
@@ -286,7 +286,7 @@
                     </tr>
                     <tr>
                         <td>Gavin Joyce</td>
-                        <td>Developer</td>
+                        <td>web designer</td>
                         <td>Edinburgh</td>
                         <td>42</td>
                         <td>2010/12/22</td>
