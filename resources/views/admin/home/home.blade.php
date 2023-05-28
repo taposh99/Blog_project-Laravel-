@@ -260,15 +260,15 @@
                         <td>$345,000</td>
                     </tr>
                     <tr>
-                        <td>Yuri Berry</td>
-                        <td>Chief Marketing Officer (CMO)</td>
+                        <td>Ysalam vai</td>
+                        <td>Chief Marketing tecgno (CMO)</td>
                         <td>New York</td>
                         <td>40654</td>
                         <td>2009/06/25</td>
                         <td>$675,000</td>
                     </tr>
                     <tr>
-                        <td>rafiq Vance</td>
+                        <td>karim vai</td>
                         <td>Pre-Sales Support</td>
                         <td>New York</td>
                         <td>214</td>
@@ -285,7 +285,7 @@
                         <td>$1,200,000</td>
                     </tr>
                     <tr>
-                        <td>Gavin Joyce</td>
+                        <td>sabiz</td>
                         <td>web designer</td>
                         <td>Edinburgh</td>
                         <td>42</td>
