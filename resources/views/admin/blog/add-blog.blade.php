@@ -13,7 +13,7 @@
                                     <div class="form-floating mb-3 mb-md-0">
 
                                         <select class="form-control" name="category_id"  id="">
-                                            <option value="">Select a Category</option>
+                                            <option value="">Select one Category</option>
                                             @foreach($categories as $category)
                                             <option value="{{$category->id}}">{{$category->category_name}}</option>
                                             @endforeach
@@ -36,7 +36,7 @@
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="text" name="title" placeholder="Title" />
-                                <label for="inputEmail">Blog Title</label>
+                                <label for="inputEmail">Blog</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="text" name="slug" placeholder="slug" />
