@@ -7,8 +7,8 @@
                     <thead>
                     <tr>
                         <th>sl</th>
-                        <th>category id</th>
-                        <th>author id</th>
+                        <th>category list</th>
+                        <th>author list</th>
                         <th>title</th>
                         <th>image</th>
                         <th>Description list</th>

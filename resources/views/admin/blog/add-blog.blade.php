@@ -40,7 +40,7 @@
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="text" name="slug" placeholder="slug" />
-                                <label for="inputEmail">Slugs list</label>
+                                <label for="inputEmail">total Slugs</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" name="description" id="editor1" cols="49" rows="49"></textarea>
