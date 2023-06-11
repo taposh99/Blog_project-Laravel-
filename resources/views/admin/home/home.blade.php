@@ -1,76 +1,76 @@
 @extends('admin.master')
 @section('content')
-    <div class="container-fluid px-4">
-        <h1 class="mt-4">blog</h1>
-        <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item active">dashboard</li>
-        </ol>
-        <div class="row">
-            <div class="col-xl-3 col-md-6">
-                <div class="card bg-primary text-white mb-4">
-                    <div class="card-body">primary Card</div>
-                    <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="#">View Details</a>
-                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6">
-                <div class="card bg-warning text-white mb-4">
-                    <div class="card-body">simple Card</div>
-                    <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="#">View Details</a>
-                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6">
-                <div class="card bg-success text-white mb-4">
-                    <div class="card-body">danger Card</div>
-                    <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="#">View Details</a>
-                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-md-6">
-                <div class="card bg-danger text-white mb-4">
-                    <div class="card-body">simple Card</div>
-                    <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="#">View Details</a>
-                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                    </div>
+<div class="container-fluid px-4">
+    <h1 class="mt-4">blog</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active">dashboard</li>
+    </ol>
+    <div class="row">
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body">primary Card</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-white stretched-link" href="#">View Details</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xl-6">
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <i class="fas fa-chart-area me-1"></i>
-                        pai Chart Example
-                    </div>
-                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <i class="fas fa-chart-bar me-1"></i>
-                        Bar chart Example
-                    </div>
-                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-warning text-white mb-4">
+                <div class="card-body">simple Card</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-white stretched-link" href="#">View Details</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                 </div>
             </div>
         </div>
-        <div class="card mb-4">
-            <div class="card-header">
-                <i class="fas fa-table me-1"></i>
-                DataTable Example
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-success text-white mb-4">
+                <div class="card-body">danger Card</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-white stretched-link" href="#">View Details</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
             </div>
-            <div class="card-body">
-                <table id="datatablesSimple">
-                    <thead>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-danger text-white mb-4">
+                <div class="card-body">simple Card</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-white stretched-link" href="#">View Details</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-area me-1"></i>
+                    pai Chart Example
+                </div>
+                <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-bar me-1"></i>
+                    Bar chart Example
+                </div>
+                <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            DataTable Example
+        </div>
+        <div class="card-body">
+            <table id="datatablesSimple">
+                <thead>
                     <tr>
                         <th>Name</th>
                         <th>Position</th>
@@ -79,8 +79,8 @@
                         <th>Start date</th>
                         <th>Salary</th>
                     </tr>
-                    </thead>
-                    <tfoot>
+                </thead>
+                <tfoot>
                     <tr>
                         <th>Name</th>
                         <th>Position</th>
@@ -89,8 +89,8 @@
                         <th>Start date</th>
                         <th>Salary</th>
                     </tr>
-                    </tfoot>
-                    <tbody>
+                </tfoot>
+                <tbody>
                     <tr>
                         <td>sani Nixon</td>
                         <td>System Architect</td>
@@ -275,7 +275,7 @@
                         <td>2011/12/654</td>
                         <td>$106,450</td>
                     </tr>
-                  
+
                     <tr>
                         <td>sani vai</td>
                         <td>Chief Executive Officer (CEO)</td>
@@ -524,11 +524,11 @@
                         <td>2008/11/13</td>
                         <td>$183,000</td>
                     </tr>
-                 
-                  
-                    </tbody>
-                </table>
-            </div>
+
+
+                </tbody>
+            </table>
         </div>
     </div>
+</div>
 @endsection
