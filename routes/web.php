@@ -49,4 +49,5 @@ Route::middleware([
     Route::post('delete-author',[AuthorController::class,'deleteAuthor'])->name('delete-author');
     Route::get('edit-author/{id}',[AuthorController::class,'editAuthor'])->name('edit-author');
     Route::post('update-author',[AuthorController::class,'updateAuthor'])->name('update-author');
+
 });
