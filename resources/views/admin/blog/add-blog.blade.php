@@ -5,7 +5,7 @@
         <div class="col-lg-7">
             <div class="card shadow-lg border-0 rounded-lg mt-5">
                 <div class="card-header">
-                    <h3 class="text-center font-weight-light my-4">+ Cre Blog</h3>
+                    <h3 class="text-center font-weight-light my-4">+ Create Blog</h3>
                 </div>
                 <div class="card-body">
                     <form action="{{ route('new-blog') }}" method="post" enctype="multipart/form-data">
@@ -28,7 +28,7 @@
                                 <div class="form-floating mb-3 mb-md-0">
 
                                     <select class="form-control" name="author_id" id="">
-                                        <option value="">Select a Author</option>
+                                        <option value="">Select an Author</option>
                                         @foreach($authors as $author)
                                         <option value="{{$author->id}}">{{$author->author_name}}</option>
                                         @endforeach
@@ -38,11 +38,11 @@
                         </div>
                         <div class="form-floating mb-3">
                             <input class="form-control" id="inputEmail" type="text" name="title" placeholder="Title" />
-                            <label for="inputEmail">Blog list</label>
+                            <label for="inputEmail">Blogs list</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input class="form-control" id="inputEmail" type="text" name="slug" placeholder="slug" />
-                            <label for="inputEmail">total Slugs</label>
+                            <label for="inputEmail">total Slug</label>
                         </div>
                         <div class="form-floating mb-3">
                             <textarea class="form-control" name="description" id="editor1" cols="49" rows="49"></textarea>
