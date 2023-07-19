@@ -28,7 +28,7 @@
                                 <div class="form-floating mb-3 mb-md-0">
 
                                     <select class="form-control" name="author_id" id="">
-                                        <option value="">Select an Author</option>
+                                        <option value="">Select an Authors</option>
                                         @foreach($authors as $author)
                                         <option value="{{$author->id}}">{{$author->author_name}}</option>
                                         @endforeach
@@ -38,11 +38,11 @@
                         </div>
                         <div class="form-floating mb-3">
                             <input class="form-control" id="inputEmail" type="text" name="title" placeholder="Title" />
-                            <label for="inputEmail">Blogs list</label>
+                            <label for="inputEmail">Blogs lists</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input class="form-control" id="inputEmail" type="text" name="slug" placeholder="slug" />
-                            <label for="inputEmail">total Slug</label>
+                            <label for="inputEmail">total Slugs</label>
                         </div>
                         <div class="form-floating mb-3">
                             <textarea class="form-control" name="description" id="editor1" cols="49" rows="49"></textarea>
