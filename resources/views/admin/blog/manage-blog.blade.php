@@ -9,7 +9,7 @@
                         <th>sl</th>
                         <th>category list</th>
                         <th>author list</th>
-                        <th>title</th>
+                        <th>title list</th>
                         <th>image</th>
                         <th>Description list</th>
                         <th>Status</th>

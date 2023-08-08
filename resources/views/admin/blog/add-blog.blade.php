@@ -28,7 +28,7 @@
                                 <div class="form-floating mb-3 mb-md-0">
 
                                     <select class="form-control" name="author_id" id="">
-                                        <option value="">Select an Authors</option>
+                                        <option value="">Select a Authors</option>
                                         @foreach($authors as $author)
                                         <option value="{{$author->id}}">{{$author->author_name}}</option>
                                         @endforeach

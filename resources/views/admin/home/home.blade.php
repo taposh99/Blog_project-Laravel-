@@ -118,8 +118,8 @@
                     </tr>
                     <tr>
                         <td>Herrod Chaldal</td>
-                        <td>Sales Assistant</td>
-                        <td>San Francisco</td>
+                        <td>Sales manage</td>
+                        <td>San manager</td>
                         <td>598</td>
                         <td>2012/08/06</td>
                         <td>$137,500</td>
